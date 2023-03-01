@@ -108,7 +108,7 @@ BaseObservable
 - 레이아웃 파일에 지정한 바인딩 연산자인 @{} 내부에는 간단한 코틀린 표현식은 물론이고 람다식도 사용할 수 있다.
  android:onClick="@{(view) -> viewModel.onButtonClick()}"
 2. 더 편리한 문법
-- 데이터 바인딩에서는 큰 따옴표 안에 백틱(')가호도 사용할 수 있다.
+- 데이터 바인딩에서는 큰 따옴표 안에 백틱(') 기호도 사용할 수 있다.
  android:text="@{'File name' + viewModel.title}"
 - null처리 연산자도 넣을 수 있다.
  android:text="@{'File name' + viewModel.title ?? 'No file'}"
