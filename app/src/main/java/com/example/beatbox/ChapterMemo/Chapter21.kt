@@ -57,6 +57,4 @@ windowBackground 속성을 찾기 위해
 버튼 속성 변경하기
 - 위 예시로 들어보면 테마 Base.V7.Theme.AppCompat에 buttonStyle 속성이 있다.
 - 이를 바꿔준 후 원래 있던 style을 삭제해준다.
-
-
  */
